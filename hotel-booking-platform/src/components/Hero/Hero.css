@@ -1,0 +1,39 @@
+.hotel-search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .hotel-search-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hotel-search-form label {
+    margin-bottom: 5px;
+  }
+
+  .hotel-search-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .search-button {
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-button:hover {
+    background-color: #e64a19;
+  }
