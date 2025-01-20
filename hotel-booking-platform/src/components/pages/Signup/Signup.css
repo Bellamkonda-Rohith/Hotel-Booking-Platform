@@ -1,0 +1,7 @@
+.custom-Signup-container{
+  background-image: url(../Signup/signupbanner.jpeg);
+  height: 80vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

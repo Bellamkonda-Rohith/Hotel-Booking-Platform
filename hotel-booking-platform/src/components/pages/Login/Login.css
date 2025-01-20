@@ -1,0 +1,10 @@
+.custom-login-container{
+  background-image: url(../Login/loginbanner.jpg);
+  height: 80vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-container{
+  width: 500px;
+}

@@ -4,7 +4,7 @@ import Hero from "../Hero/Hero";
 const Hotels=({ searchData })=>{
     return(
         <>
-        <div>
+        <div className="container-fluid">
       <Hero searchData={searchData} />
     </div>
         </>

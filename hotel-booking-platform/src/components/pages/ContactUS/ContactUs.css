@@ -1,0 +1,21 @@
+.coustom-contactus{
+  display: flex;
+  background-image: url(../ContactUS/contactus\ bannger.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+ 
+
+}
+.custom-card{
+  font-weight: 500;
+  font-size: 100px;
+}
+
+
+.custom-form-container{
+  width: 340px;
+}

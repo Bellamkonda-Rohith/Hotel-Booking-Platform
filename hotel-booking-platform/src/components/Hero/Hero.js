@@ -125,11 +125,11 @@ const Hero = ({ searchData }) => {
   }, [searchData]);
 
   return (
-    <div className="container mt-4 bg-light">
+    <div className="container-fluid mt-4  coustom-container-hotel">
       <div className="row">
         {filteredData.map((hotel, index) => (
-          <div className="col-md-4" key={index}>
-            <div className="card m-4 rounded-2">
+          <div className="col-md-4 " key={index}>
+            <div className="card m-4 rounded-2 bg-dark text-light">
               <img src={hotel.image} className="card-img-top" alt={hotel.name} style={{ height: '200px', width: '100%', objectFit: 'cover' }} />
               <div className="card-body">
                 <h5 className="card-title">{hotel.name}</h5>

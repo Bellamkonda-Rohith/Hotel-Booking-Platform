@@ -4,7 +4,7 @@
     gap: 15px;
     max-width: 400px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
     color: white;
@@ -37,3 +37,4 @@
   .search-button:hover {
     background-color: #e64a19;
   }
+ 

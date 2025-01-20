@@ -113,7 +113,7 @@ const Home = ({ searchData }) => {
         <div
           className="hero-banner" >
 
-          <div className="hero-content text-center">
+          <div className="hero-content text-center ">
 
             <h1 className="hero-headline">Explore the Wonders of India</h1>
             <p className="hero-subheadline">
@@ -128,10 +128,10 @@ const Home = ({ searchData }) => {
         </div>
 
       </div>
-      <div className="container-fluid  border border-success   mt-5 shadow-sm">
+      <div className="container-fluid     mt-5 shadow-sm bg-light " style={{borderRadius:"30px"}}>
             <div className="row p-5">
               <div className="col-5">
-                <div className="card d-flex justify-content-center align-items-center"><h5 className="p-5 fw-bolder fs-1"><span  className="fs-3"style={{color:"gold"}}>INTRODUCING</span><br/>MMT LUXURY SECTION</h5></div>
+                <div className="ffd-flex justify-content-center align-items-center"><h5 className="p-5 fw-bolder fs-1"><span  className="fs-3"style={{color:"gold"}}>INTRODUCING</span><br/>MMT LUXURY SECTION</h5></div>
               </div>
               <div className="col-7 d-flex justify-content-center align-items-center">
                 <div className="row ">
@@ -159,7 +159,7 @@ const Home = ({ searchData }) => {
 
           </div>
          {/* different types of places */}
-          <div className="container-fluid mt-5 border border-success shadow-sm">
+          <div className="container-fluid mt-5  bg-light" style={{borderRadius:"30px"}}>
             <div >
               <div className="row p-5">
                 {indianHotelCategories.map((placese)=>{

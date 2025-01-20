@@ -3,10 +3,10 @@ import '../Navbar/Navbar.css';
 import { useNavigate } from 'react-router-dom';
 import Hotels from '../pages/Hotels';
 
-const Navbar = ({setSearchData}) => {
+const Navbar = ({ setSearchData }) => {
 
 
-    const navigate=useNavigate()
+  const navigate = useNavigate()
   const handleSearch = (event) => {
     setSearchData(event.target.value);
     console.log(event.target.value)
@@ -14,7 +14,7 @@ const Navbar = ({setSearchData}) => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark sticky-top " style={{ backgroundColor: "#131010", borderRadius:"30px"}}>
+    <nav className="navbar navbar-expand-lg navbar-dark sticky-top " style={{ backgroundColor: "#131010" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#" style={{ fontWeight: "700", fontFamily: "emoji", fontSize: "25px", background: "rgba(0, 0, 0, 0.4)", borderRadius: "10px", padding: "5px" }}>StayIndia</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
